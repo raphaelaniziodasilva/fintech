@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu | Fintech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/sign-up.css" />
+    <link rel="icon" href="./assets/icons/logo.svg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/tailwind.config.js"></script>
+  </head>
+  <body class="container">
+    <header class="bg-primary text-white grid place-content-center p-6 pb-3">
+      <h1 class="text-6xl font-bold uppercase">Fintech</h1>
+      <h2 class="mt-1 text-2xl">Sua economia começa agora</h2>
+      <img
+        class="mt-8 mx-auto scale-150"
+        src="./assets/icons/logo.svg"
+      ></img>
+    </header>
+    <main class="p-5">
+      <div class="flex flex-col sm:items-center items-start mb-9">
+        <span class="font-medium text-lg">Saldo</span>
+        <span class="font-light">R$ 550,00</span>
+      </div>
+      <section
+        class="grid grid-cols-[repeat(auto-fit,_minmax(8.125rem,16rem))] gap-5 place-content-start sm:place-content-center"
+      >
+        <a
+          href="saldo.html"
+          class="grid bg-zinc-300 place-items-center gap-3 p-4 rounded"
+        >
+          <img
+            class="pointer-events-none"
+            src="./assets/icons/wallet.svg"
+          ></img>
+          <span class="font-medium">Adicione saldo do mês</span>
+        </a>
+        <a
+          href="gastos.html"
+          class="grid bg-zinc-300 place-items-center gap-3 p-4 rounded"
+        >
+          <img
+            class="pointer-events-none"
+            src="./assets/icons/calc.svg"
+          ></img>
+          <span class="font-medium">Adicione gasto do mês</span>
+        </a>
+        <a
+          href="extrato.html"
+          class="grid bg-zinc-300 place-items-center gap-3 p-4 rounded"
+        >
+          <img
+            class="pointer-events-none"
+            src="./assets/icons/money.svg"
+          ></img>
+          <span class="font-medium">Extrato</span>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+body {
+  display: grid;
+  grid-template-rows: minmax(30dvh, auto) 1fr;
+  height: 100dvh;
+  text-align: center;
+}
